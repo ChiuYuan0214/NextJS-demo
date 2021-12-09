@@ -75,7 +75,7 @@ export const getStaticProps = async () => {
         id: meetup._id.toString(),
       })),
     },
-    revalidate: 10, // the frequency that the app will wait for to refetch the data.
+    revalidate: 1, // the frequency that the app will wait for to refetch the data.
   };
 };
 
